@@ -479,4 +479,23 @@ body {
 }
 
 }
+@media (max-width:768px){
+
+.hero{
+text-align:center;
+}
+
+.hero h1{
+text-align:center;
+}
+
+.subtitle{
+text-align:center;
+}
+
+.buttons{
+justify-content:center;
+}
+
+}
 

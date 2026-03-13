@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diya Patel</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= SIDE MENU ================= -->
+<div class="side-menu">
+  <i class="fas fa-home active" onclick="setActive(this); location.href='#hero'"></i>
+  <i class="fas fa-user" onclick="setActive(this); location.href='#about'"></i>
+  <i class="fas fa-briefcase" onclick="setActive(this); location.href='#skills'"></i>
+  <i class="fas fa-envelope" onclick="setActive(this); location.href='#contact'"></i>
+</div>
+
+<!-- ================= MAIN CONTAINER ================= -->
+<div class="container">
+
+  <!-- PROFILE CARD -->
+  <aside class="profile-card">
+    <img src="photos/Diya1.jpeg" alt="Diya Patel">
+    <h2>Diya Patel</h2>
+    <p>Web Designer &<br>ASP.Net Developer</p>
+
+    <div class="socials">
+      <span><i class="fab fa-facebook-f"></i></span>
+      <span><i class="fab fa-twitter"></i></span>
+      <span><i class="fab fa-instagram"></i></span>
+      <span><i class="fas fa-globe"></i></span>
+    </div>
+
+    <a class="email" href="mailto:pateldiya393@gmail.com">
+      pateldiya393@gmail.com
+    </a>
+  </aside>
+
+  <!-- HERO -->
+  <main class="hero"id="hero">
+    <div class="glow"></div>
+
+    <span class="badge">HELLO</span>
+    <h1>Web<br>Developer</h1>
+
+    <p class="subtitle">
+      A Digital Designer & Web Developer creating elegant
+      and scalable web experiences.
+    </p>
+
+    <div class="buttons">
+<button class="btn primary" onclick="location.href='#contact'">
+  Let’s Work Together
+</button>
+     <a href="diya.pdf" download>
+  <button class="btn secondary">Download CV →</button>
+</a>
+
+    </div>
+  </main>
+</div>
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about-section" id="about">
+
+  <span class="badge">ABOUT</span>
+
+  <h2 class="about-title">
+    My Journey & <span>Vision</span>
+  </h2>
+
+  <p class="about-text">
+    Hi, I’m Diya Patel — a passionate Web Designer & ASP.NET Developer
+    focused on building modern, scalable, and user-friendly digital products.
+  </p>
+
+  <p class="about-text">
+    I love combining clean UI, performance-focused code, and
+    creative problem-solving to deliver impactful web experiences.
+  </p>
+
+  <span class="badge resume">RESUME</span>
+
+  <h3 class="about-role">
+    Web Developer<br>
+    <span>Designer & Problem Solver</span>
+  </h3>
+
+  <div class="timeline">
+    <div class="timeline-row">
+      <span>Freelancer</span>
+      <span>Graphic designers </span>
+      <span>2024</span>
+    </div>
+
+    <div class="timeline-row">
+      <span>Mern stack Project</span>
+      <span>Internship</span>
+      <span>2024–2025</span>
+    </div>
+    <div class="timeline-row">
+      <span>Full-Stack Developer</span>
+      <span>Job</span>
+      <span>2025–2026</span>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services-section">
+  <span class="badge">SERVICES</span>
+
+  <h2 class="services-title">
+    Solutions That <br>
+    <span>Empower Your Brand</span>
+  </h2>
+
+  <div class="services-list">
+
+    <div class="service-item active">
+      <div class="service-header">
+        <h4>Web Design & Development</h4>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <p>
+        Custom website design and development solutions tailored
+        to your business needs with modern UI and performance.
+      </p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-header">
+        <h4>UI / UX Design</h4>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <p>
+        User-centered interfaces focused on usability,
+        accessibility and conversion.
+      </p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-header">
+        <h4>Branding & Identity</h4>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <p>
+        Visual identity systems that communicate
+        brand personality and trust.
+      </p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-header">
+        <h4>SEO & Performance</h4>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <p>
+        Speed optimization, SEO best practices
+        and analytics integration.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- ================= SKILLS ================= -->
+<section class="skills-section" id="skills">
+
+  <span class="badge">SKILLS</span>
+
+  <h2 class="skills-title">
+    My <span>Technical Skills</span>
+  </h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+      <h4>Figma</h4>
+      <span>92%</span>
+    </div>
+
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg">
+      <h4>WordPress</h4>
+      <span>95%</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
+      <h4>Sass</h4>
+      <span>80%</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+      <h4>React</h4>
+      <span>88%</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg">
+      <h4>GraphQL</h4>
+      <span>75%</span>
+    </div>
+<div class="skill-card">
+  <img src="photos/CANVA.png" alt="Canva Logo"height="50" width="700">
+  <h4>Canva</h4>
+  
+  <span>80%</span>
+</div>
+  </div>
+</section>
+<!-- ================= CONTACT ================= -->
+<section class="contact-section" id="contact">
+
+  <span class="badge">CONTACT</span>
+
+  <h2 class="contact-title">
+    Get In <span>Touch</span>
+  </h2>
+
+  <form class="contact-form">
+
+    <div class="input-row">
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required>
+    </div>
+
+    <div class="input-row">
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Subject">
+    </div>
+
+    <textarea placeholder="Your Message..." rows="5"></textarea>
+
+    <button type="submit" class="btn primary">
+      Send Message
+    </button>
+
+  </form>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
